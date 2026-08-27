@@ -1,10 +1,3 @@
-"""
-FastAPI app: /ask routes a prompt to a model, tracks cost/latency, and
-checks the budget cap before every call. /dashboard shows recent calls.
-
-Migrated from Flask -- this is the only file that changed, since nothing
-else here imports the web framework directly.
-"""
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.responses import RedirectResponse, Response
 from fastapi.templating import Jinja2Templates

@@ -1,8 +1,3 @@
-"""
-Thin wrapper around the Gemini API. Swap providers by editing this file
-only -- routing, cost tracking, retry, and the budget guard don't touch
-it.
-"""
 from google import genai
 
 from observability.decorator import track
